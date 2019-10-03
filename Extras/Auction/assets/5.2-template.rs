@@ -246,7 +246,7 @@ decl_module! {
             //      if this account has no existing bids
             //      reserve the full bid amount
             // else
-            //      reserve only the difference (bid amount - escrow amunt)
+            //      reserve only the difference (bid amount - escrow amount)
             //      update <Bids>
             //      update <BidAccounts> list with the new sender
 
