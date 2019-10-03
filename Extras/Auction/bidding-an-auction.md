@@ -24,7 +24,7 @@ We will add the sender's bid to the `Bids` list and escrow this amount from thei
 <balances::Module<T>>::reserve(sender, amount)?;
 ```
 
-In the next step, while finalizing the function, the reserved balaced will be released using the balances module's `unreserve` function.
+In the next step, while finalizing the function, the reserved balances will be released using the balances module's `unreserve` function.
 
 ```rust
 <balances::Module<T>>::unreserve(sender, amount)?;
